@@ -19,7 +19,7 @@ Requires:      horde-serialize
 Requires:      horde-sql
 Requires:      horde-util
 Requires:      php-gettext
-BuildRequires: horde-framework
+Requires:      php-pear	
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
 
