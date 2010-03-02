@@ -8,7 +8,7 @@ Version:       0.0.3
 Release:       %mkrel 1
 Summary:       DataTree API
 License:       LGPL
-Group:         Productivity/Networking/Web/Servers
+Group:         Networking/Mail
 Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
