@@ -13,7 +13,7 @@ Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
 BuildRoot:     %{_tmppath}/%{name}-%{version}-build
-Requires(pre): %{_bindir}/pear
+Requires(pre): php-pear
 Requires:      horde-framework
 Requires:      horde-serialize
 Requires:      horde-sql
