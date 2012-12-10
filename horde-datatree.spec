@@ -60,3 +60,24 @@ fi
 %{peardir}/Horde/DataTree/null.php
 %{peardir}/Horde/DataTree/sql.php
 
+
+
+%changelog
+* Mon Jul 26 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.3-3mdv2011.0
++ Revision: 560541
+- Increased release for rebuild
+
+* Thu Mar 18 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.3-2mdv2010.1
++ Revision: 524827
+- increased rel version to 2
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased rel version
+
+* Tue Mar 02 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.3-1mdv2010.1
++ Revision: 513314
+- corrected Group: to Networking/Mail
+- replaced PreReq with Requires(pre)
+- removed Buildrequires: horde-framework to make it build
+- import horde-datatree
+
+
