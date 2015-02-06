@@ -5,7 +5,7 @@
 
 Name:          horde-datatree
 Version:       0.0.3
-Release:       %mkrel 3
+Release:       4
 Summary:       DataTree API
 License:       LGPL
 Group:         Networking/Mail
